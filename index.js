@@ -10,7 +10,7 @@ const client = new Client({
 })
 
 client.on("ready", () => {
-    console.log(`${client.user.tag} is listening!`)
+    console.log(`${client.user.tag} is listening and ready to be racist!`)
 })
 
 client.on('messageCreate', message => {
