@@ -14,9 +14,7 @@ client.on("ready", () => {
 })
 
 client.on('messageCreate', message => {
-	console.log(message.content)
     if(message.content.toLowerCase().includes('al bhed'))
-        // message.channel.send('https://media.tenor.com/2DVqutDcAWQAAAAC/wakka-ffx.gif');
 		message.reply('https://media.tenor.com/2DVqutDcAWQAAAAC/wakka-ffx.gif')
 });
 
